@@ -25,3 +25,7 @@ x = 4
 ```plaintext
 x = 8
 ```
+**Output:**
+```plaintext
+2
+```
