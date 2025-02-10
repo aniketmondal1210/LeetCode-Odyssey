@@ -1,4 +1,4 @@
-# 9. Palindrome Number
+# Problem: Palindrome Number
 
 ## Problem Statement
 Given an integer `x`, return `true` if `x` is a **palindrome**, and `false` otherwise.
