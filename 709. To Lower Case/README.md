@@ -1,0 +1,24 @@
+# Problem: To Lower Case
+
+## Problem Statement
+Given a string `s`, return the string after replacing every uppercase letter with the same lowercase letter.
+
+## Constraints
+- `1 <= s.length <= 100`
+- `s` consists of printable ASCII characters.
+
+## Examples
+### Example 1
+- **Input:** `s = "Hello"`  
+- **Output:** `"hello"`
+
+### Example 2
+- **Input:** `s = "here"`  
+- **Output:** `"here"`
+
+### Example 3
+- **Input:** `s = "LOVELY"`  
+- **Output:** `"lovely"`
+
+## Solution Approach
+- Use the built-in string method `str.lower()` in Python to convert all uppercase letters to lowercase efficiently.
