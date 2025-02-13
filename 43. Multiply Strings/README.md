@@ -32,4 +32,3 @@ To multiply two numbers represented as strings:
 - **Space Complexity:** `O(m + n)`, to store the result.
 
 ---
-Happy Coding! 🚀
