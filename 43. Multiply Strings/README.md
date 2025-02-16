@@ -19,16 +19,3 @@ You **must not** use any built-in BigInteger library or convert the inputs to in
 ### Example 2
 - **Input:** `num1 = "123"`, `num2 = "456"`
 - **Output:** `"56088"`
-
-## Approach
-To multiply two numbers represented as strings:
-1. Reverse both strings for easier index manipulation.
-2. Use an array to store intermediate multiplication results.
-3. Iterate through each digit in `num1` and `num2`, multiply them, and store the result at the appropriate position in the array.
-4. Handle carries and convert the final array into a string result.
-
-## Complexity Analysis
-- **Time Complexity:** `O(m * n)`, where `m` and `n` are the lengths of `num1` and `num2`.
-- **Space Complexity:** `O(m + n)`, to store the result.
-
----
