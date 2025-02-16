@@ -3,6 +3,9 @@
 ## Problem Statement
 Given an integer `x`, return `true` if `x` is a **palindrome**, and `false` otherwise.
 
+## Constraints:
+- `-2³¹ <= x <= 2³¹ - 1`
+
 ### Example 1:
 **Input:**  
 `x = 121`  
@@ -28,9 +31,6 @@ From left to right, it reads `-121`. From right to left, it becomes `121-`, whic
 Reads `01` from right to left, which is not the same as `10`.
 
 ---
-
-## Constraints:
-- `-2³¹ <= x <= 2³¹ - 1`
 
 ## Follow-up:
 Can you solve it without converting the integer to a string?
