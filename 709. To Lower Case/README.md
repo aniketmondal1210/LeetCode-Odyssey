@@ -19,6 +19,3 @@ Given a string `s`, return the string after replacing every uppercase letter wit
 ### Example 3
 - **Input:** `s = "LOVELY"`  
 - **Output:** `"lovely"`
-
-## Solution Approach
-- Use the built-in string method `str.lower()` in Python to convert all uppercase letters to lowercase efficiently.
