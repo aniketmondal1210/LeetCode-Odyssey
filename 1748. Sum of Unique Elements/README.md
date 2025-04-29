@@ -1,4 +1,4 @@
-# Sum of Unique Elements
+# Problem: Sum of Unique Elements
 
 ## Problem Description
 You are given an integer array `nums`. The **unique elements** of the array are those that appear **exactly once**.
