@@ -1,4 +1,4 @@
-# Height Checker Task
+# Problem: Height Checker Task
 
 ## Problem Description
 A school is organizing an annual photo of all the students. The students are expected to stand in a single line in **non-decreasing order** of height.
