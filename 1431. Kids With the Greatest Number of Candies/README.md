@@ -1,6 +1,5 @@
-# Kids With the Greatest Number of Candies
+# Problem: Kids With the Greatest Number of Candies
 
-## Problem Description
 You are given an integer array `candies`, where `candies[i]` represents the number of candies the `i-th` kid has. You are also given an integer `extraCandies`, representing the number of extra candies you can give.
 
 Return a boolean array `result` where `result[i]` is `true` if, after giving the `i-th` kid **all** the extraCandies, they will have the **greatest number** of candies among all kids, or `false` otherwise.
