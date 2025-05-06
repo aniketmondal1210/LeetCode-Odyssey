@@ -40,7 +40,7 @@ This repository is licensed under the [MIT License](./LICENSE). Feel free to use
 
 ## 📬 Contact
 
-If you have any questions or would like to discuss algorithms or coding techniques, don’t hesitate to contact me at [arghya.dutta@example.com].
+If you have any questions or would like to discuss algorithms or coding techniques, don’t hesitate to contact me at [aniket21destiny@gmail.com].
 
 ---
 
