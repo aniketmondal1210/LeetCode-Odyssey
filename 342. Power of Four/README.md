@@ -47,12 +47,3 @@ Explanation: 1 = 4^0
 Can you solve it **without loops or recursion**?
 
 ---
-
-## Approach
-
-Use bitwise and mathematical checks:
-
-### Method (No Loop/Recursion):
-```python
-def isPowerOfFour(n):
-    return n > 0 and (n & (n - 1)) == 0 and (n - 1) % 3 == 0
