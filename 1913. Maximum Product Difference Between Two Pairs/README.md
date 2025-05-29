@@ -36,11 +36,3 @@ Choose (9, 8) and (2, 4):
 
 - `4 <= nums.length <= 10^4`
 - `1 <= nums[i] <= 10^4`
-
-## Optimal Approach
-
-Sort the array and select:
-- The **two largest elements** for the first product.
-- The **two smallest elements** for the second product.
-
-This ensures the maximum product difference.
