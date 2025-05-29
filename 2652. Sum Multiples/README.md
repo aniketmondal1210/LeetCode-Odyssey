@@ -1,4 +1,4 @@
-# Sum of Multiples of 3, 5, or 7
+# Sum Multiples
 
 ## Problem Statement
 
@@ -43,12 +43,3 @@ Sum: `3 + 5 + 6 + 7 + 9 = 30`
 
 - `1 <= n <= 10^3`
 
-## Approach
-
-1. Initialize a variable `total_sum = 0`.
-2. Iterate through all numbers from `1` to `n`.
-3. If the current number is divisible by 3, 5, or 7, add it to `total_sum`.
-4. Return `total_sum`.
-
-### Time Complexity:  
-- O(n), where `n` is the input number.
