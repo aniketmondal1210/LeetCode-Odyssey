@@ -1,9 +1,14 @@
-# Generate All Subsets in Lexicographical Order
+# Double Reversal Check
 
 ## Problem Statement
 
-Given an array `arr[]` of **distinct positive integers**, your task is to find **all its subsets**.  
-The subsets should be returned in **lexicographical order**.
+Reversing an integer means to reverse all its digits.
+
+For example, reversing `2021` gives `1202`. Reversing `12300` gives `321` as the leading zeros are not retained.
+
+Given an integer `num`, reverse `num` to get `reversed1`, then reverse `reversed1` to get `reversed2`.
+
+Return `true` if `reversed2` equals `num`. Otherwise return `false`.
 
 ---
 
@@ -12,27 +17,33 @@ The subsets should be returned in **lexicographical order**.
 **Example 1:**
 
 Input:  
-`arr = [1, 2, 3]`  
+`num = 526`  
 Output:  
-`[[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]`
+`true`  
+Explanation: Reverse 526 → 625 → 526. So, result is `true`.
+
+---
 
 **Example 2:**
 
 Input:  
-`arr = [1, 2]`  
+`num = 1800`  
 Output:  
-`[[], [1], [1, 2], [2]]`
+`false`  
+Explanation: Reverse 1800 → 81 → 18 ≠ 1800. So, result is `false`.
+
+---
 
 **Example 3:**
 
 Input:  
-`arr = [10]`  
+`num = 0`  
 Output:  
-`[[], [10]]`
+`true`  
+Explanation: Reverse 0 → 0 → 0. So, result is `true`.
 
 ---
 
 ## Constraints
 
-- `1 ≤ arr.size() ≤ 10`  
-- `1 ≤ arr[i] ≤ 10`
+- `0 <= num <= 10^6`
