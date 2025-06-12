@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Your task is to calculate ` a<sup>b</sup> mod 1337 `, where `a` is a positive integer, and `b` is an extremely large positive integer represented as an array of digits.
+Your task is to calculate `a^b mod 1337`, where `a` is a positive integer, and `b` is an extremely large positive integer represented as an array of digits.
 
 ---
 
