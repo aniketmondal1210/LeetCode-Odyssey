@@ -22,17 +22,6 @@ Given two integers `a` and `b`, return **the sum** of the two integers **without
 **Output:**  
 `5`  
 
----
-
-## Explanation
-
-You can compute the sum using **bitwise operations**:
-
-- Use XOR (`^`) to add bits without carrying.
-- Use AND (`&`) followed by a left shift (`<<`) to calculate the carry.
-- Repeat the steps until carry becomes 0.
-
----
 
 ## Constraints
 
