@@ -56,8 +56,3 @@ Only `9` is ≥ `9`, so remove all other 4 elements.
 - There is at least one index `i` such that `nums[i] >= k`.
 
 ---
-
-## Approach
-
-- Count how many numbers in `nums` are **less than `k`**.
-- That count is the **minimum number of removals needed**.
