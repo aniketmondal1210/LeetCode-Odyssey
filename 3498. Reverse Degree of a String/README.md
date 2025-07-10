@@ -27,7 +27,7 @@ Return the total **reverse degree** of the string `s`.
 
 **Explanation:**
 ```
-  | Letter | Reversed Alphabet Index | String Index | Product |
+  | Letter |  Reversed Alphabet Index | String Index | Product |
   |--------|--------------------------|--------------|---------|
   | a      | 26                       | 1            | 26      |
   | b      | 25                       | 2            | 50      |
@@ -47,7 +47,7 @@ Return the total **reverse degree** of the string `s`.
 
 **Explanation:**
 ```
-  | Letter | Reversed Alphabet Index | String Index | Product |
+  | Letter |  Reversed Alphabet Index | String Index | Product |
   |--------|--------------------------|--------------|---------|
   | z      | 1                        | 1            | 1       |
   | a      | 26                       | 2            | 52      |
