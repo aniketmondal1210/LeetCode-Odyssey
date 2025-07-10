@@ -27,11 +27,11 @@ Return the total **reverse degree** of the string `s`.
 
 **Explanation:**
 ```
-    | Letter | Reversed Alphabet Index | String Index | Product |
-    |--------|--------------------------|--------------|---------|
-    | a      | 26                       | 1            | 26      |
-    | b      | 25                       | 2            | 50      |
-    | c      | 24                       | 3            | 72      |
+  | Letter | Reversed Alphabet Index | String Index | Product |
+  |--------|--------------------------|--------------|---------|
+  | a      | 26                       | 1            | 26      |
+  | b      | 25                       | 2            | 50      |
+  | c      | 24                       | 3            | 72      |
 ```
 **Total Reverse Degree:** `26 + 50 + 72 = 148`
 
@@ -47,12 +47,12 @@ Return the total **reverse degree** of the string `s`.
 
 **Explanation:**
 ```
-    | Letter | Reversed Alphabet Index | String Index | Product |
-    |--------|--------------------------|--------------|---------|
-    | z      | 1                        | 1            | 1       |
-    | a      | 26                       | 2            | 52      |
-    | z      | 1                        | 3            | 3       |
-    | a      | 26                       | 4            | 104     |
+  | Letter | Reversed Alphabet Index | String Index | Product |
+  |--------|--------------------------|--------------|---------|
+  | z      | 1                        | 1            | 1       |
+  | a      | 26                       | 2            | 52      |
+  | z      | 1                        | 3            | 3       |
+  | a      | 26                       | 4            | 104     |
 ```
 **Total Reverse Degree:** `1 + 52 + 3 + 104 = 160`
 
