@@ -40,14 +40,3 @@ Write an efficient algorithm to search for a value `target` in an `m x n` intege
 - `-10^9 <= target <= 10^9`
 
 ---
-
-## Approach
-
-Start from the **top-right** element:
-- If current element == target → return `true`
-- If current element > target → move **left**
-- If current element < target → move **down**
-
-Repeat until out of bounds.
-
----
