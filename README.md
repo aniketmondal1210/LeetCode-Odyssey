@@ -16,7 +16,7 @@ Feel free to check out my [LeetCode Profile](https://leetcode.com/u/aniket21dest
 
 ## 🛠️ How to Use
 
-- Clone this repository to your local machine using `git clone https://github.com/aniket21destiny/LeetCode-Solutions.git`.
+- Clone this repository to your local machine using `git clone https://github.com/aniket21destiny/LeetCode-Odyssey.git`.
 - Browse the problems by category or difficulty, and use the code for learning or as a reference for your own solutions.
 - If you’re stuck on a problem, check out the explanation section for hints or detailed solutions.
 
