@@ -47,7 +47,4 @@ nums = [2, 2, 2]
 ## Constraints
 - 1 ≤ `nums.length` ≤ 10⁵  
 - 1 ≤ `nums[i]` ≤ 10⁶  
-- **Expected Time Complexity:** O(n)  
-- **Expected Auxiliary Space:** O(n)
-
 ---
