@@ -14,6 +14,7 @@ Given an integer `n`, return a **counter function** that:
 **Constraints:**
 
 -1000 ≤ n ≤ 1000
+
 0 ≤ calls.length ≤ 1000
 
 
