@@ -31,6 +31,7 @@ Given an integer `n`, return a **counter function** that:
 **Input:**
 
 n = 10
+
 ["call", "call", "call"]
 
 **Output:**
