@@ -16,7 +16,9 @@ Write a function `createCounter(init)` that accepts an **initial integer `init`*
 **Constraints:**
 
 -1000 ≤ init ≤ 1000
+
 0 ≤ calls.length ≤ 1000
+
 calls[i] ∈ {"increment", "decrement", "reset"}
 
 
