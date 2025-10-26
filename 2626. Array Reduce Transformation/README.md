@@ -16,7 +16,9 @@ If the array is empty, simply return `init`.
 The process follows this sequence:
 
 val = fn(init, nums[0])
+
 val = fn(val, nums[1])
+
 val = fn(val, nums[2])
 ...
 return val
@@ -32,7 +34,9 @@ If `nums` is empty → return `init`.
 **Input:**
 
 nums = [1,2,3,4]
+
 fn = function sum(accum, curr) { return accum + curr; }
+
 init = 0
 
 **Output:**
@@ -42,8 +46,11 @@ init = 0
 **Explanation:**
 
 0 + 1 = 1
+
 1 + 2 = 3
+
 3 + 3 = 6
+
 6 + 4 = 10
 
 
@@ -53,7 +60,9 @@ init = 0
 **Input:**
 
 nums = [1,2,3,4]
+
 fn = function sum(accum, curr) { return accum + curr * curr; }
+
 init = 100
 
 **Output:**
@@ -63,8 +72,11 @@ init = 100
 **Explanation:**
 
 100 + 1² = 101
+
 101 + 2² = 105
+
 105 + 3² = 114
+
 114 + 4² = 130
 
 
@@ -75,6 +87,7 @@ init = 100
 
 nums = []
 fn = function sum(accum, curr) { return 0; }
+
 init = 25
 
 **Output:**
@@ -89,7 +102,9 @@ Empty array → return initial value.
 ## Constraints
 
 0 ≤ nums.length ≤ 1000
+
 0 ≤ nums[i] ≤ 1000
+
 0 ≤ init ≤ 1000
 
 
