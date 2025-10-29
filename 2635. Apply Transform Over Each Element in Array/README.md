@@ -1,6 +1,6 @@
-# 🧮 Custom Map Function — `map(arr, fn)`
+# Custom Map Function — `map(arr, fn)`
 
-## 🧩 Problem Statement
+## Problem Statement
 Given an integer array **arr** and a **mapping function fn**, return a **new array** with the transformation applied to each element.
 
 The resulting array should satisfy the condition:
