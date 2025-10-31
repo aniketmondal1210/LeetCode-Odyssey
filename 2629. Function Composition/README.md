@@ -37,9 +37,9 @@ Evaluating from right to left:
 
 Result → 65
 
-Example 2
+### **Example 2**
 
-Input:
+**Input:**
 
 functions = [x => 10 * x, x => 10 * x, x => 10 * x]
 x = 1
@@ -59,9 +59,9 @@ Evaluating from right to left:
 
 Result → 1000
 
-Example 3
+### **Example 3**
 
-Input:
+**Input:**
 
 functions = []
 x = 42
