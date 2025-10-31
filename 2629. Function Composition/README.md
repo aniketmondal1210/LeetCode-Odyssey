@@ -36,6 +36,7 @@ Evaluating from right to left:
     64 + 1 = 65
 
 Result → 65
+
 Example 2
 
 Input:
@@ -57,6 +58,7 @@ Evaluating from right to left:
     10 × 100 = 1000
 
 Result → 1000
+
 Example 3
 
 Input:
