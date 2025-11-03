@@ -27,7 +27,9 @@ You can assume there are **three possible input functions**:
 **Input:**
 
 fnName = "sum"
+
 actions = ["call","call","getCallCount","call","getCallCount"]
+
 values = [[2,2],[2,2],[],[1,2],[]]
 
 
@@ -38,12 +40,17 @@ values = [[2,2],[2,2],[],[1,2],[]]
 
 **Explanation:**
 const sum = (a, b) => a + b;
+
 const memoizedSum = memoize(sum);
 
 memoizedSum(2, 2); // call → returns 4 (new call)
+
 memoizedSum(2, 2); // call → returns 4 (cached)
+
 getCallCount();    // → 1
+
 memoizedSum(1, 2); // call → returns 3 (new call)
+
 getCallCount();    // → 2
 
 Example 2
@@ -51,7 +58,9 @@ Example 2
 Input:
 
 fnName = "factorial"
+
 actions = ["call","call","call","getCallCount","call","getCallCount"]
+
 values = [[2],[3],[2],[],[3],[]]
 
 Output:
@@ -61,13 +70,20 @@ Output:
 Explanation:
 
 const factorial = (n) => (n <= 1) ? 1 : n * factorial(n - 1);
+
 const memoFactorial = memoize(factorial);
 
+
 memoFactorial(2); // call → 2
+
 memoFactorial(3); // call → 6
+
 memoFactorial(2); // call → 2 (cached)
+
 getCallCount();   // → 2
+
 memoFactorial(3); // call → 6 (cached)
+
 getCallCount();   // → 2
 
 Example 3
@@ -75,7 +91,9 @@ Example 3
 Input:
 
 fnName = "fib"
+
 actions = ["call","getCallCount"]
+
 values = [[5],[]]
 
 Output:
@@ -85,13 +103,19 @@ Output:
 Explanation:
 
 fib(5) = 8
+
 // Only one new call was made.
 
 Constraints
 
 0 ≤ a, b ≤ 10⁵
+
 1 ≤ n ≤ 10
+
 1 ≤ actions.length ≤ 10⁵
+
 actions.length === values.length
+
 actions[i] ∈ {"call", "getCallCount"}
+
 fnName ∈ {"sum", "factorial", "fib"}
