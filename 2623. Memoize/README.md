@@ -53,9 +53,9 @@ memoizedSum(1, 2); // call → returns 3 (new call)
 
 getCallCount();    // → 2
 
-Example 2
+## Example 2
 
-Input:
+**Input:**
 
 fnName = "factorial"
 
@@ -63,7 +63,7 @@ actions = ["call","call","call","getCallCount","call","getCallCount"]
 
 values = [[2],[3],[2],[],[3],[]]
 
-Output:
+**Output:**
 
 [2,6,2,2,6,2]
 
@@ -86,9 +86,9 @@ memoFactorial(3); // call → 6 (cached)
 
 getCallCount();   // → 2
 
-Example 3
+## Example 3
 
-Input:
+**Input:**
 
 fnName = "fib"
 
@@ -106,7 +106,7 @@ fib(5) = 8
 
 // Only one new call was made.
 
-Constraints
+## Constraints
 
 0 ≤ a, b ≤ 10⁵
 
