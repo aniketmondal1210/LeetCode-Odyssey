@@ -1,4 +1,4 @@
-# Problem: Cancellable Function Execution
+# Cancellable Function Execution
 
 ## Problem Statement
 You are given:
