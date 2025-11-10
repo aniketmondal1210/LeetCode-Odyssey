@@ -1,4 +1,4 @@
-# Problem: Implement Promise.all Without Using It
+# Implement Promise.all Without Using It
 
 ## Problem Statement
 You are given an array of asynchronous functions `functions`.  
