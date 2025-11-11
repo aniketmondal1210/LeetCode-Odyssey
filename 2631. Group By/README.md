@@ -20,6 +20,7 @@ array = [
   
   {"id": "2"}
 ];
+
 fn = function (item) { 
 
   return item.id; 
