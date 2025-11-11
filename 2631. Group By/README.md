@@ -12,12 +12,16 @@ This method should return an **object** where:
 ## Example 1
 
 **Input:**
+
 array = [
   {"id": "1"},
+  
   {"id": "1"},
+  
   {"id": "2"}
 ];
 fn = function (item) { 
+
   return item.id; 
 }
 
@@ -25,6 +29,7 @@ fn = function (item) {
 
 { 
   "1": [{"id": "1"}, {"id": "1"}],
+  
   "2": [{"id": "2"}]
 }
 
@@ -40,10 +45,13 @@ They are grouped based on their id values.
 
 array = [
   [1, 2, 3],
+  
   [1, 3, 5],
+  
   [1, 5, 9]
 ];
 fn = function (list) { 
+
   return String(list[0]); 
 }
 
@@ -72,6 +80,7 @@ fn = function (n) {
 
 {
   "true": [6, 7, 8, 9, 10],
+  
   "false": [1, 2, 3, 4, 5]
 }
 
