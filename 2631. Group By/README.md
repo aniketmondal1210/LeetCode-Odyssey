@@ -19,6 +19,7 @@ array = [
   {"id": "1"},
   
   {"id": "2"}
+  
 ];
 
 fn = function (item) { 
@@ -29,9 +30,11 @@ fn = function (item) {
 **Output:**
 
 { 
+
   "1": [{"id": "1"}, {"id": "1"}],
   
   "2": [{"id": "2"}]
+  
 }
 
 Explanation:
@@ -45,21 +48,26 @@ They are grouped based on their id values.
 **Input:**
 
 array = [
+
   [1, 2, 3],
   
   [1, 3, 5],
   
   [1, 5, 9]
+  
 ];
 fn = function (list) { 
 
   return String(list[0]); 
+  
 }
 
 **Output:**
 
 { 
+
   "1": [[1, 2, 3], [1, 3, 5], [1, 5, 9]] 
+
 }
 
 Explanation:
@@ -74,15 +82,19 @@ Since all lists start with 1, all are grouped under "1".
 
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 fn = function (n) { 
+
   return String(n > 5);
+
 }
 
 **Output:**
 
 {
+
   "true": [6, 7, 8, 9, 10],
   
   "false": [1, 2, 3, 4, 5]
+
 }
 
 Explanation:
