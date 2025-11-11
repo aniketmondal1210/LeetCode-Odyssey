@@ -30,6 +30,7 @@ fn = function (item) {
 
 Explanation:
 Two elements have id = 1, one has id = 2.
+
 They are grouped based on their id values.
 
 **Example 2**
@@ -53,6 +54,7 @@ fn = function (list) {
 
 Explanation:
 The key is the first element of each list.
+
 Since all lists start with 1, all are grouped under "1".
 
 ## Example 3
@@ -72,6 +74,7 @@ fn = function (n) {
 }
 
 Explanation:
+
 Numbers are grouped by whether they are greater than 5.
 
 ## Constraints
@@ -80,4 +83,5 @@ Numbers are grouped by whether they are greater than 5.
 - fn returns a string
 
 Expected Time Complexity: O(N)
+
 Expected Space Complexity: O(N)
