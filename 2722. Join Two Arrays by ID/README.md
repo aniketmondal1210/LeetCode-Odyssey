@@ -1,4 +1,4 @@
-# Problem: Merge Two Arrays of Objects by `id`
+# Merge Two Arrays of Objects by `id`
 
 ## Problem Statement
 
@@ -109,7 +109,9 @@ arr2 = [
 Output:
 
 [
+
   { "id": 1, "b": { "c": 84 }, "v": [1, 3], "y": 48 }
+
 ]
 
 Explanation:
