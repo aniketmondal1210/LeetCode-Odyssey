@@ -14,7 +14,9 @@ Flattening means removing sub-array nesting and replacing them with their actual
 ## Example 1
 
 **Input:**
+
 arr = [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]];
+
 n = 0;
 
 **Output:**
@@ -22,7 +24,9 @@ n = 0;
 [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
 
 Explanation:
+
 At n = 0, no flattening is done.
+
 All arrays remain as they are.
 
 ## Example 2
@@ -30,6 +34,7 @@ All arrays remain as they are.
 **Input:**
 
 arr = [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]];
+
 n = 1;
 
 **Output:**
@@ -37,7 +42,9 @@ n = 1;
 [1, 2, 3, 4, 5, 6, 7, 8, [9, 10, 11], 12, 13, 14, 15]
 
 Explanation:
+
 Only arrays at depth 0 are flattened (since 0 < 1).
+
 Inner subarrays such as [9, 10, 11] (depth 1) remain untouched.
 
 ## Example 3
@@ -45,6 +52,7 @@ Inner subarrays such as [9, 10, 11] (depth 1) remain untouched.
 **Input:**
 
 arr = [[1, 2, 3], [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]];
+
 n = 2;
 
 **Output:**
@@ -52,6 +60,7 @@ n = 2;
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
 Explanation:
+
 All arrays up to depth 1 are flattened because their depth is less than 2.
 
 ## Constraints
@@ -60,4 +69,4 @@ All arrays up to depth 1 are flattened because their depth is less than 2.
 - 0 <= total subarrays in arr <= 10^5
 - maxDepth <= 1000
 - 1000 <= each number <= 1000
-0 <= n <= 1000
+- 0 <= n <= 1000
