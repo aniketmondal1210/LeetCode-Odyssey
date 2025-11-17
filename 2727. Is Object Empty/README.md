@@ -63,8 +63,8 @@ false
 
 ## Constraints
 
-obj is valid JSON (object or array)
-2 ≤ JSON.stringify(obj).length ≤ 10⁵
+- obj is valid JSON (object or array)
+- 2 ≤ JSON.stringify(obj).length ≤ 10⁵
 
 
 ---
@@ -85,8 +85,8 @@ Object.keys(obj).length === 0
 
 But a truly **O(1)** approach (no iteration) uses:
 
-JSON.stringify(obj) === "{}"
-JSON.stringify(obj) === "[]"
+- JSON.stringify(obj) === "{}"
+- JSON.stringify(obj) === "[]"
 
 
 Since JSON.stringify(obj) is already provided as valid input, engines often compute string length while parsing, so this check is effectively constant-time.
