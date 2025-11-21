@@ -67,7 +67,7 @@ abs(count(a) - count(b))
 
 ## Constraints
 
-1 <= s.length <= 100000
-s[i] ∈ {'a', 'b'}
+- 1 <= s.length <= 100000
+- s[i] ∈ {'a', 'b'}
 
 ---
