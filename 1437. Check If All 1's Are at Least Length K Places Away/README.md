@@ -37,22 +37,9 @@ The second and third `1` are only **1** place apart (index 3 and 5), which is le
 
 ---
 
-## Approach
-- Track the index of the **previous 1**.
-- For each new `1`, check:  
-
-current_index - previous_index - 1 >= k
-
-- Update previous index.
-- If any pair violates the condition, return false.
-
-Time Complexity: `O(n)`  
-Space Complexity: `O(1)`
-
----
-
 ## Constraints
 
 - 1 <= nums.length <= 100000
 - 0 <= k <= nums.length
 - nums[i] is 0 or 1
+---
