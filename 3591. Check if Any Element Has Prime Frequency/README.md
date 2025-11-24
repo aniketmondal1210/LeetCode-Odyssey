@@ -57,7 +57,7 @@ At least one prime frequency exists.
 
 ## Constraints
 
-1 ≤ nums.length ≤ 100
-0 ≤ nums[i] ≤ 100
+- 1 ≤ nums.length ≤ 100
+- 0 ≤ nums[i] ≤ 100
 
 ---
