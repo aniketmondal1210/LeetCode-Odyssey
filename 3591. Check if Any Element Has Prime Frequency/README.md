@@ -55,19 +55,6 @@ At least one prime frequency exists.
 
 ---
 
-## Approach
-1. Count the frequency of each number using a map or array.  
-2. Check each frequency:
-   - If it is > 1  
-   - And if it is prime  
-   → return **true**.
-3. If no frequency is prime, return **false**.
-
-Time Complexity: `O(n + k√k)` where k = max frequency  
-Space Complexity: `O(n)`
-
----
-
 ## Constraints
 
 1 ≤ nums.length ≤ 100
