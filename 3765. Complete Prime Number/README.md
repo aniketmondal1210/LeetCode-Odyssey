@@ -13,23 +13,31 @@ A number **num** is called a **Complete Prime Number** if:
 ### Example 1
 
 Input: num = 23
+
 Output: true
+
 Explanation: Prefixes → 2, 23 (prime).
+
 Suffixes → 3, 23 (prime).
 
 
 ### Example 2
 
 Input: num = 39
+
 Output: false
+
 Explanation: Prefixes → 3 (prime), 39 (not prime).
+
 Suffixes → 9 (not prime), 39 (not prime).
 
 
 ### Example 3
 
 Input: num = 7
+
 Output: true
+
 Explanation: 7 is prime.
 
 
