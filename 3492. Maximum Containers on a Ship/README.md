@@ -1,4 +1,4 @@
-# Problem: Maximum Containers on a Ship
+# Maximum Containers on a Ship
 
 ## Problem Statement
 You are given a positive integer `n` representing an **n × n cargo deck** on a ship.  
