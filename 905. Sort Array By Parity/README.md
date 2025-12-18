@@ -1,4 +1,4 @@
-# Problem: Sort Array by Parity
+# Sort Array by Parity
 
 ## Problem Statement
 You are given an integer array `nums`.  
@@ -24,7 +24,9 @@ nums = [3,1,2,4]
 Valid outputs include:
 
 [4,2,3,1]
+
 [2,4,1,3]
+
 [4,2,1,3]
 
 Any arrangement with all evens first and odds later is acceptable.
