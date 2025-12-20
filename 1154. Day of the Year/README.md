@@ -42,7 +42,7 @@ date = "2019-02-10"
 
 ---
 
-### ## Constraints
+### Constraints
 
 - date.length == 10
 - date[4] == date[7] == '-'
