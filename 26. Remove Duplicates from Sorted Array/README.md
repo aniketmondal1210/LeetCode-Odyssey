@@ -61,19 +61,6 @@ Output:
 Explanation:
 The unique elements are `0`, `1`, `2`, `3`, `4`.
 The function returns `5`, and the first five positions are updated accordingly.
-Approach
-
-Since the array is already sorted:
-
-    Use a two-pointer technique:
-
-        One pointer (i) tracks the position of the last unique element.
-
-        Another pointer (j) scans the array.
-
-    When nums[j] is different from nums[i], increment i and copy nums[j] to nums[i].
-
-    After traversal, i + 1 gives the count of unique elements.
 
 ## Constraints
 
