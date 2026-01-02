@@ -1,7 +1,8 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        digit_str = ""
-        for i in digits:
-            digit_str += str(i)
-        sum_digit = int(digit_str) + 1
-        return [int(j) for j in str(sum_digit)]
+        for i in range(len(digits)-1,-1,-1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            digits[i] = 0
+        return [1] + digits
