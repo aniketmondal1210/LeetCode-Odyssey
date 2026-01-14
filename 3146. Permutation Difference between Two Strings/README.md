@@ -19,6 +19,7 @@ Your task is to **return the permutation difference** between `s` and `t`.
 **Input:**
 
 s = "abc"
+
 t = "bac"
 
 
@@ -30,7 +31,9 @@ t = "bac"
 **Explanation:**
 
 |index(a in s) - index(a in t)| = |0 - 1| = 1
+
 |index(b in s) - index(b in t)| = |1 - 0| = 1
+
 |index(c in s) - index(c in t)| = |2 - 2| = 0
 
 Total = 1 + 1 + 0 = 2
@@ -42,6 +45,7 @@ Total = 1 + 1 + 0 = 2
 **Input:**
 
 s = "abcde"
+
 t = "edbac"
 
 
@@ -53,7 +57,9 @@ t = "edbac"
 **Explanation:**
 
 |0 - 3| + |1 - 2| + |2 - 4| + |3 - 1| + |4 - 0|
+
 = 3 + 1 + 2 + 2 + 4
+
 = 12
 
 
