@@ -1,8 +1,11 @@
 class Solution:
     def maximumNumberOfStringPairs(self, words: List[str]) -> int:
+        seen = set()
         count = 0
-        for i in range(len(words)):
-            for j in range(i + 1, len(words)):
-                if words[i] == words[j][::-1]:
-                    count += 1
+        for i in words:
+            reversed_i = i[::-1]
+            if reversed_i in seen:
+                count += 1
+            else:
+                seen.add(i)
         return count
