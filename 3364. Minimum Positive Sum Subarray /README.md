@@ -20,7 +20,7 @@ A **subarray** is a contiguous, non-empty sequence of elements within the array.
 ### Example 1
 **Input**
 
-nums = [3, -2, 1, 4]
+nums = [3, -2, 1, 4],
 l = 2, r = 3
 
 
@@ -62,7 +62,7 @@ No subarray of length between `l` and `r` has a sum greater than 0.
 ### Example 3
 **Input**
 
-nums = [1, 2, 3, 4]
+nums = [1, 2, 3, 4],
 l = 2, r = 4
 
 
