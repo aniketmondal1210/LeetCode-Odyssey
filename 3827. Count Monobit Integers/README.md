@@ -56,19 +56,6 @@ Total = 3
 
 ---
 
-## Key Observation
-A number is **Monobit** if:
-- It is `0`, OR
-- It has the form `2^k - 1` (binary representation is all `1`s)
-
-Examples of `2^k - 1`:
-- `1  = 1`
-- `3  = 11`
-- `7  = 111`
-- `15 = 1111`
-
----
-
 ## Constraints
 
 - 0 <= n <= 1000
