@@ -69,7 +69,9 @@ nums2 = [1, 2, 3, 4]
 ---
 
 ## Follow-up
-Can you solve this in: O(nums1.length + nums2.length)
+Can you solve this in: 
+
+O(nums1.length + nums2.length)
 
 
 ---
