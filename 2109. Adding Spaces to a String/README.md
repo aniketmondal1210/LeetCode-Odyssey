@@ -13,7 +13,7 @@ Return the modified string after inserting all spaces.
 
 ---
 
-## 🧪 Example 1
+## Example 1
 
 **Input**
 
@@ -28,7 +28,7 @@ spaces = [8, 13, 15]
 
 ---
 
-## 🧪 Example 2
+## Example 2
 
 **Input**
 
@@ -43,7 +43,7 @@ spaces = [1, 5, 7, 9]
 
 ---
 
-## 🧪 Example 3
+## Example 3
 
 **Input**
 
