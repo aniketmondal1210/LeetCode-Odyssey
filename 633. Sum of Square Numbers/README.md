@@ -12,7 +12,7 @@ Return `true` if possible, otherwise return `false`.
 
 ---
 
-## 🧪 Examples
+## Examples
 
 ### Example 1
 **Input**
