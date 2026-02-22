@@ -17,7 +17,7 @@ Return `true` if `s` follows the same pattern.
 
 ---
 
-## 🧪 Example 1
+## Example 1
 
 **Input**
 
@@ -38,7 +38,7 @@ true
 
 ---
 
-## 🧪 Example 2
+## Example 2
 
 **Input**
 
@@ -53,7 +53,7 @@ false
 
 ---
 
-## 🧪 Example 3
+## Example 3
 
 **Input**
 
