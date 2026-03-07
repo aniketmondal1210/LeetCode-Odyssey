@@ -59,3 +59,5 @@ All `1`s appear in **one continuous segment**.
 - 1 <= s.length <= 100
 - s[i] is '0' or '1'
 - s[0] = '1'
+
+```
