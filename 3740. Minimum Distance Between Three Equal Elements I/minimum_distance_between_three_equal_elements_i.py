@@ -20,7 +20,6 @@ class Solution:
         return dist if dist != float('inf') else -1
 
 
-
 from collections import defaultdict
 class Solution:
     def minimumDistance(self, nums: List[int]) -> int:
@@ -28,7 +27,7 @@ class Solution:
         for i, num in enumerate(nums):
             index_map[num].append(i)
         min_distance = float('inf')
-        for num, index in index_map.items():
+        for index in index_map.values():
             if len(index) >= 3:
                 for i in range(len(index) - 2):
                     a, b, c = index[i], index[i+1], index[i+2]
