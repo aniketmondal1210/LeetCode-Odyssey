@@ -18,3 +18,20 @@ class Solution:
                 distance = abs(x-y) + abs(y-z) + abs(z-x)
                 dist = min(distance, dist)
         return dist if dist != float('inf') else -1
+
+
+
+from collections import defaultdict
+class Solution:
+    def minimumDistance(self, nums: List[int]) -> int:
+        index_map = defaultdict(list)
+        for i, num in enumerate(nums):
+            index_map[num].append(i)
+        min_distance = float('inf')
+        for num, index in index_map.items():
+            if len(index) >= 3:
+                for i in range(len(index) - 2):
+                    a, b, c = index[i], index[i+1], index[i+2]
+                    distance = abs(a-b) + abs(b-c) + abs(c-a)
+                    min_distance = min(min_distance, distance)
+        return min_distance if min_distance != float('inf') else -1
