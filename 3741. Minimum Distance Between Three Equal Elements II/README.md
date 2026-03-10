@@ -1,0 +1,113 @@
+# Minimum Distance of a Good Tuple
+
+## Problem Statement
+
+You are given an integer array `nums`.
+
+A tuple `(i, j, k)` of **3 distinct indices** is called **good** if:
+
+```
+nums[i] == nums[j] == nums[k]
+```
+
+The **distance** of a good tuple is:
+
+```
+|i - j| + |j - k| + |k - i|
+```
+
+Return the **minimum possible distance** of a good tuple.  
+If no good tuple exists, return:
+
+```
+-1
+```
+
+---
+
+## Examples
+
+### Example 1
+
+**Input**
+```
+nums = [1,2,1,1,3]
+```
+
+**Output**
+```
+6
+```
+
+**Explanation**
+
+Good tuple:
+
+```
+(0,2,3)
+```
+
+Distance:
+
+```
+|0-2| + |2-3| + |3-0|
+= 2 + 1 + 3
+= 6
+```
+
+---
+
+### Example 2
+
+**Input**
+```
+nums = [1,1,2,3,2,1,2]
+```
+
+**Output**
+```
+8
+```
+
+**Explanation**
+
+Good tuple:
+
+```
+(2,4,6)
+```
+
+Distance:
+
+```
+|2-4| + |4-6| + |6-2|
+= 2 + 2 + 4
+= 8
+```
+
+---
+
+### Example 3
+
+**Input**
+```
+nums = [1]
+```
+
+**Output**
+```
+-1
+```
+
+**Explanation**
+
+There are fewer than **3 elements**, so no good tuple exists.
+
+---
+
+## Constraints:
+
+- 1 <= n == nums.length <= 10^5
+- 1 <= nums[i] <= n
+
+---
