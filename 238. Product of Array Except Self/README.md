@@ -8,14 +8,6 @@ Given an integer array **nums**, return an array **answer** such that:
 answer[i] = product of all elements of nums except nums[i]
 ```
 
-### Conditions
-
-- Time Complexity must be **O(n)**
-- **Division is not allowed**
-- Prefix or suffix product fits in **32-bit integer**
-
----
-
 # Examples
 
 ### Example 1
