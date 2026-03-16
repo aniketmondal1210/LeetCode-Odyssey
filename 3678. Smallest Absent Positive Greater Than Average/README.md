@@ -9,10 +9,9 @@ Given an integer array **nums**, return the **smallest positive integer** that:
 
 ### Average Formula
 
-\[
-\text{average} = \frac{\text{sum of all elements}}{\text{number of elements}}
-\]
-
+```
+average = sum of all elements / number of elements
+```
 ---
 
 # Examples
