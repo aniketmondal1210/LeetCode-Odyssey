@@ -54,6 +54,6 @@ Qedo1ct-eeLg=ntse-T!
 
 - 1 <= s.length <= 100
 - s consists of characters with ASCII values in the range [33, 122].
-- s does not contain ['\"'] or ['\\'].
+- s does not contain `'\"'` or `'\\'`.
 
 ---
