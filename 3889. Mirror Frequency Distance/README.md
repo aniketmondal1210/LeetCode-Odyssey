@@ -77,7 +77,7 @@ s = "byby"
 
 ## Constraints:
 
-- 1 <= s.length <= 5 * 105
+- 1 <= s.length <= 5 * 10^5
 - s consists only of lowercase English letters and digits.
 
 ---
