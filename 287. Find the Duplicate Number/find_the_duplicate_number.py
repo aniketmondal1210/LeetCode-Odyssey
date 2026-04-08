@@ -1,7 +1,7 @@
-from collections import Counter
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
-        count = Counter(nums)
-        for key, value in count.items():
-            if value > 1:
-                return key
+        seen = set()
+        for i in nums:
+            if i in seen:
+                return i
+            seen.add(i)
