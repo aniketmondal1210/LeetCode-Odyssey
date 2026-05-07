@@ -48,10 +48,8 @@ Output: 1
 
 # Constraints
 
-```text
-3 <= arr.length <= 10^5
-0 <= arr[i] <= 10^6
-arr is guaranteed to be a mountain array
-```
+- 3 <= arr.length <= 10^5
+- 0 <= arr[i] <= 10^6
+- arr is guaranteed to be a mountain array
 
 ---
