@@ -1,9 +1,5 @@
-class Solution(object):
-    def findMatrix(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def findMatrix(self, nums: List[int]) -> List[List[int]]:
         result = []
         count = 0
         n = len(nums)
