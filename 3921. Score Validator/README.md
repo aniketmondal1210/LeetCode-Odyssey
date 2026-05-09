@@ -93,8 +93,8 @@ Output:
 # Constraints
 
 ```text
-- 1 <= events.length <= 1000
-- events[i] is one of "0", "1", "2", "3", "4", "6", "W", "WD", or "NB".
+1 <= events.length <= 1000
+events[i] is one of "0", "1", "2", "3", "4", "6", "W", "WD", or "NB".
 ```
 
 ---
