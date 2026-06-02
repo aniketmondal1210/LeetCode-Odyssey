@@ -56,7 +56,8 @@ k = 1
 - 1 <= nums[i] <= 100
 - nums is sorted in non-decreasing order.
 - 1 <= k <= nums.length
- 
+
+---
 
 ## Follow-up:
 
