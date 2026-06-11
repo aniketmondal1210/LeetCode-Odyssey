@@ -23,3 +23,7 @@ var checkIfInstanceOf = function(obj, classFunction) {
 
     return false;
 };
+
+/**
+ * checkIfInstanceOf(new Date(), Date); // true
+ */
