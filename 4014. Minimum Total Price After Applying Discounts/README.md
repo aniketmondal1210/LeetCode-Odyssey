@@ -159,45 +159,10 @@ Therefore, the minimum possible sum is:
 
 ---
 
-## Approach
-
-To minimize the total price, the largest discounts should be assigned to the most expensive items.
-
-1. Sort `prices` in descending order.
-2. Sort `discounts` in descending order.
-3. Pair the largest discount with the largest price.
-4. Continue pairing while both arrays have remaining elements.
-5. Items without a discount retain their original price.
-6. Calculate the final sum using floating-point arithmetic.
-
-This greedy strategy minimizes the total reduction in price.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n log n + m log m)
-```
-
-where `n` is the number of prices and `m` is the number of discounts.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-excluding the space used by the sorting implementation.
-
----
-
 ## Constraints
 
-```text
-1 <= prices.length, discounts.length <= 10^5
-1 <= prices[i] <= 10^5
-1 <= discounts[j] <= 100
-```
+- 1 <= prices.length, discounts.length <= 10^5
+- 1 <= prices[i] <= 10^5
+- 1 <= discounts[j] <= 100
+
+---
