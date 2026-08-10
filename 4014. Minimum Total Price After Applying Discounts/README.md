@@ -1,4 +1,4 @@
-# Problem: Minimum Sum After Applying Discounts
+# Minimum Sum After Applying Discounts
 
 ## Problem Statement
 
