@@ -1,4 +1,4 @@
-# Problem: Fancy String
+# Fancy String
 
 ## Problem Statement
 
