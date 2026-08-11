@@ -100,39 +100,6 @@ Therefore, the smallest missing integer greater than or equal to `12` is:
 
 ---
 
-## Approach
-
-1. Start with the first element of `nums` as the sum of the sequential prefix.
-2. Traverse the array from the second element.
-3. Continue adding elements while each element is exactly `1` greater than the previous element.
-4. Stop when the sequential property is broken.
-5. Store the sum of the longest sequential prefix.
-6. Use a set to store all elements of `nums`.
-7. Starting from the calculated sum, increment the value until a number not present in the set is found.
-8. Return that number.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-The array is traversed to find the sequential prefix and to build the set. The search for the missing value is also bounded by the constraints.
-
-### Auxiliary Space
-
-```text
-O(n)
-```
-
-A set is used to store the elements of `nums`.
-
----
-
 ## Constraints
 
 ```text
