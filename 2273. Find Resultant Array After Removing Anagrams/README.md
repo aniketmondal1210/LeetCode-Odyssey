@@ -94,44 +94,6 @@ Therefore, the original array remains unchanged.
 
 ---
 
-## Approach
-
-Use a result array to keep track of the strings that remain.
-
-For each word in `words`:
-
-1. If the result array is empty, add the current word.
-2. Otherwise, compare the current word with the last word in the result.
-3. Check whether they are anagrams by comparing their sorted characters.
-4. If they are anagrams, skip the current word.
-5. Otherwise, add the current word to the result.
-
-This works because after deleting an anagram, the next word must be compared with the new last remaining word.
-
----
-
-## Complexity
-
-Let `n` be the number of words and `k` be the maximum length of a word.
-
-### Time Complexity
-
-```text
-O(n * k log k)
-```
-
-Sorting the characters of each word takes `O(k log k)` time.
-
-### Auxiliary Space
-
-```text
-O(n * k)
-```
-
-for storing the resulting array and the sorted representations used for comparison.
-
----
-
 ## Constraints
 
 ```text
