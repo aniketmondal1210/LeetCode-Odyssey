@@ -83,40 +83,6 @@ This is the minimum possible sum.
 
 ---
 
-## Approach
-
-To minimize the sum:
-
-1. Extract all digits from `num`.
-2. Sort the digits in ascending order.
-3. Distribute the digits between `num1` and `num2` so that the place values are minimized.
-4. Handle zeros carefully so that they do not create unnecessary leading positions.
-5. Add the two resulting numbers.
-
-The key idea is to use the smallest available digits in the highest place-value positions and keep the two numbers as balanced in length as possible.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(d log d)
-```
-
-where `d` is the number of digits in `num`.
-
-### Auxiliary Space
-
-```text
-O(d)
-```
-
-for storing the digits.
-
----
-
 ## Constraints
 
 ```text
