@@ -1,4 +1,4 @@
-# Problem: Minimum Sum of Two Numbers
+# Minimum Sum of Two Numbers
 
 ## Problem Statement
 
