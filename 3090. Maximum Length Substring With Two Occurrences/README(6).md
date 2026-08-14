@@ -1,4 +1,4 @@
-# Problem: Maximum Length Substring With At Most Two Occurrences
+# Maximum Length Substring With At Most Two Occurrences
 
 ## Problem Statement
 
@@ -67,40 +67,6 @@ Therefore, the maximum valid length is:
 ```text
 2
 ```
-
----
-
-## Approach
-
-Use a **sliding window** with a frequency array.
-
-1. Maintain two pointers, `left` and `right`, representing the current window.
-2. Expand the window by moving `right`.
-3. Increase the frequency of the current character.
-4. If any character occurs more than two times, move `left` forward until the window becomes valid again.
-5. Track the maximum valid window length.
-
-This ensures that every character in the current window appears at most twice.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-Each character is added to and removed from the sliding window at most once.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-Since the string contains only lowercase English letters, the frequency array has a fixed size of 26.
 
 ---
 
