@@ -1,4 +1,4 @@
-# Problem: Elevator Request Time
+# Elevator Request Time
 
 ## Problem Statement
 
@@ -80,42 +80,6 @@ Total time:
 
 ```text
 2 + 2 + 0 = 4 seconds
-```
-
----
-
-## Approach
-
-Keep track of the elevator's current floor, initially `0`.
-
-For each requested floor:
-
-1. Calculate the absolute difference between the current floor and the requested floor.
-2. Add this difference to the total time.
-3. Update the current floor to the requested floor.
-
-The time required to move between two floors is:
-
-```text
-abs(currentFloor - requestedFloor)
-```
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(m)
-```
-
-where `m` is the number of requests.
-
-### Auxiliary Space
-
-```text
-O(1)
 ```
 
 ---
