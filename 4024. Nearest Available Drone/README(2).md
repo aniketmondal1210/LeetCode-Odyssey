@@ -1,4 +1,4 @@
-# Problem: Find Nearest Reachable Drone
+# Find Nearest Reachable Drone
 
 ## Problem Statement
 
@@ -154,53 +154,6 @@ No drone can reach the target, so the answer is:
 ```text
 -1
 ```
-
----
-
-## Approach
-
-Traverse all drones and calculate the Manhattan distance from each drone to the target.
-
-For each drone:
-
-1. Calculate:
-
-```text
-distance = |xi - tx| + |yi - ty|
-```
-
-2. Check whether:
-
-```text
-distance <= rangei
-```
-
-3. If the drone can reach the target:
-   - Compare its distance with the minimum distance found so far.
-   - Update the answer if its distance is smaller.
-   - If the distance is equal, keep the smaller index.
-
-If no reachable drone is found, return `-1`.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-where `n` is the number of drones.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-Only a constant amount of extra space is required.
 
 ---
 
