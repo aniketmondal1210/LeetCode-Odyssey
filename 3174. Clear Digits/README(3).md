@@ -1,4 +1,4 @@
-# Problem: Remove Digits
+# Remove Digits
 
 ## Problem Statement
 
@@ -77,37 +77,6 @@ The closest non-digit character to its left is `c`.
 ```
 
 Therefore, the resulting string is an empty string.
-
----
-
-## Approach
-
-Use a stack to process the string from left to right.
-
-1. If the current character is a letter, push it onto the stack.
-2. If the current character is a digit, remove the most recently added letter from the stack.
-3. The most recently added letter is the closest non-digit character to the left of the digit.
-4. After processing the entire string, the stack contains the resulting string.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-Each character is processed exactly once.
-
-### Auxiliary Space
-
-```text
-O(n)
-```
-
-The stack may contain up to `n` characters.
 
 ---
 
