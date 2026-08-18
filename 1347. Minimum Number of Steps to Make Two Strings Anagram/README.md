@@ -1,4 +1,4 @@
-# Problem: Minimum Steps to Make Two Strings Anagrams
+# Minimum Steps to Make Two Strings Anagrams
 
 ## Problem Statement
 
@@ -84,48 +84,6 @@ t = "mangaar"
 `"anagram"` and `"mangaar"` already contain the same characters with the same frequencies.
 
 Therefore, they are already anagrams and no replacements are needed.
-
----
-
-## Approach
-
-Use a frequency array of size `26`.
-
-1. Count the frequency of every character in `s`.
-2. Count the frequency of every character in `t`.
-3. For each character, compare its frequency in both strings.
-4. If a character occurs more times in `t` than in `s`, the extra occurrences must be replaced.
-5. Sum all such extra occurrences.
-
-For example:
-
-```text
-Frequency in s = 3
-Frequency in t = 5
-Extra characters = 5 - 3 = 2
-```
-
-These two extra characters must be replaced.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-where `n` is the length of the strings.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-Only fixed-size frequency arrays of 26 characters are required.
 
 ---
 
