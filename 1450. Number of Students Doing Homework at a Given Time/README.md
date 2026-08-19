@@ -46,30 +46,6 @@ Output:
 **Explanation:**  
 The only student's homework interval is `[4,4]`, so they are counted.
 
-## Approach
-
-Traverse both arrays using the same index.
-
-For each student, check whether `queryTime` lies inside their homework interval:
-
-```text
-startTime[i] <= queryTime <= endTime[i]
-```
-
-If the condition is true, increment the answer.
-
-## Algorithm
-
-1. Initialize `count = 0`.
-2. Loop through every student.
-3. If `startTime[i] <= queryTime` and `queryTime <= endTime[i]`, increment `count`.
-4. Return `count`.
-
-## Complexity
-
-- **Time Complexity:** `O(n)`, where `n` is the number of students.
-- **Space Complexity:** `O(1)`.
-
 ## Constraints
 
 - `startTime.length == endTime.length`
