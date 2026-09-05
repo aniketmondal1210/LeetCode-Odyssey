@@ -98,18 +98,3 @@ Both elements are even, so the answer is `true`.
 - `nums1` consists of distinct integers.
 
 ---
-
-## Function Signature
-
-```text
-boolean canMakeSameParity(int[] nums1)
-```
-
----
-
-## Topics
-
-- Arrays
-- Parity
-- Mathematics
-- Greedy
