@@ -3,7 +3,7 @@ class Solution:
         result = []
         temp = 0
         for i in range(len(nums)):
-            digit = nums[i] + temp
-            temp = digit
-            result.append(digit)
+            summ = nums[i] + temp
+            temp = summ
+            result.append(summ)
         return result
