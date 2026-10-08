@@ -39,6 +39,6 @@ Return the result table in **any order**.
 
 **Explanation:**
 - Tweet 1 has length $11 \le 15$ -> Valid.
-- Tweet 2 has length $33 > 15$ $ -> Invalid.
+- Tweet 2 has length $33 > 15$ -> Invalid.
 
 ---
