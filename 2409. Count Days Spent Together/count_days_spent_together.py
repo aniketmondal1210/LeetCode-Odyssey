@@ -1,9 +1,9 @@
 class Solution:
     def countDaysTogether(self, arriveAlice: str, leaveAlice: str, arriveBob: str, leaveBob: str) -> int:
         days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-        def dateToDayNumber(dateStr):
-            month = int(dateStr[:2])
-            day = int(dateStr[3:])
+        def dateToDayNumber(date):
+            month = int(date[:2])
+            day = int(date[3:])
             totalDays = 0
             for i in range(month - 1):
                 totalDays += days[i]
