@@ -31,7 +31,7 @@ Return the maximum possible sum of the medians computed from the selected elemen
 ## Constraints
 
 - $1 \le \text{nums.length} \le 5 \times 10^5$
-- `nums.length % 3 == 0`
+- nums.length % 3 == 0
 - $1 \le \text{nums}[i] \le 10^9$
 
 ---
